@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/mybasedb
+    username: root
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: true
+
